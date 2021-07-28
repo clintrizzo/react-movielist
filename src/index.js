@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const App = () => {
     return (
     <div className='container-fluid'>
+        <h1>Movie List</h1>
     <List />
     </div>
     )
