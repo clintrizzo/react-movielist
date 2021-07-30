@@ -1,23 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Card = ({ movie }) => {
+const Card = ({ tv }) => {
   return (
     <div className='card'>
-      <img src={movie.img.src} className='card-img-top' alt={movie.img.alt} />
+      <img src={tv.img.src} className='card-img-top' alt={tv.img.alt} />
       <div className='card-body'>
-        <h2 className='card-title'>{`#${movie.ranking} - ${movie.title} (${movie.year})`}</h2>
+        <h2 className='card-title'>{`#${tv.ranking} - ${tv.title} (${tv.year})`}</h2>
       </div>
       <ul className='list-group list-group-flush'>
-        <li className='list-group-item'>{`Distributor: ${movie.distributor}`}</li>
-        <li className='list-group-item'>{`Amount: ${movie.amount}`}</li>
+        <li className='list-group-item'>{`Distributor: ${tv.distributor}`}</li>
+        <li className='list-group-item'>{`Amount: ${tv.amount}`}</li>
       </ul>
     </div>
   );
 };
 
 Card.propTypes = {
-    movie: PropTypes.shape({
+      tv: PropTypes.shape({
       title: PropTypes.string,
       distributor: PropTypes.string,
       year: PropTypes.number,
