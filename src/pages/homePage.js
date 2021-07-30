@@ -1,5 +1,5 @@
 import React from 'react'
-const homePage = () => {
+function homePage () {
     return (
         <div>
             <h1>Hello World</h1>
