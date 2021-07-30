@@ -1,7 +1,7 @@
 import React from 'react'
-import List from 'src/containers/movieList.js'
+import List from '../containers/movieList'
 
-const moviesPage = () => {
+function moviesPage () {
     return (
         <div>
          <div className='container-fluid'>
