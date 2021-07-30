@@ -1,23 +1,35 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "src/components/navbar/navbar.js"
-import homePage from "src/pages/homePage"
-import moviesPage from "src/pages/moviePage"
-import tvPage from "src/pages/tvPage"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+
+import Home from '../src/pages/homePage'
+import moviesPage from '../src/pages/moviePage'
+import tvPage from '../src/pages/tvPage'
 
 function App() {
     return (
         <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={homePage} />
-          <Route path='/moviesPage' component={moviesPage} />
-          <Route path='/tvPage' component={tvPage} />
-        </Switch>
-      </Router>
-    );
-  }
+            <div>
+                <nav style={{ margin: 10 }}>
+                    <Link to='/' style={{ padding: 10 }}>
+                        Home
+                    </Link>
+
+                    <Link to='/moviePage' style={{ padding: 10 }}>
+                        Movie Faviorites
+                    </Link>
+
+                    <Link to='/tvPage' style={{ padding: 10 }}>
+                        TV Faviorites
+                    </Link>
+                </nav>
+                <Route path='/' exact component={Home} />
+                <Route path='/moviePage' component={moviesPage} />
+                <Route path='/tvPage' component={tvPage} />
+            </div>
+        </Router>
+    )
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
