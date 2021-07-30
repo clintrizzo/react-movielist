@@ -12,12 +12,12 @@ class List extends Component {
   }
 
   async componentDidMount() {
-    const movies = await fetch('src/assets/data1.json');
-    const moviesJSON = await movies.json();
+    const tv = await fetch('src/assets/tv.json');
+    const tvJSON = await tv.json();
 
-    if (moviesJSON) {
+    if (tvJSON) {
       this.setState({
-        data: moviesJSON,
+        data: tvJSON,
         loading: false,
       });
     }
@@ -32,9 +32,9 @@ class List extends Component {
 
     return (
       <div className='row'>
-        {data.map(movie => (
-          <div key={movie.id} className='col-sm-2'>
-            <Card movie={movie} />
+        {data.map(tv => (
+          <div key={tv.id} className='col-sm-2'>
+            <Card tv={tv} />
           </div>
         ))}
       </div>
