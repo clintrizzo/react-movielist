@@ -12,7 +12,7 @@ class List extends Component {
   }
 
   async componentDidMount() {
-    const movies = await fetch('src/assets/data.json');
+    const movies = await fetch('src/assets/movie.json');
     const moviesJSON = await movies.json();
 
     if (moviesJSON) {
