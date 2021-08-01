@@ -33,7 +33,7 @@ class List extends Component {
     return (
       <div className='row'>
         {data.map(tv => (
-          <div key={tv.id} className='col-sm-2'>
+          <div key={tv.id} className='col-sm-3'>
             <Card tv={tv} />
           </div>
         ))}
