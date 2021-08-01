@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './style.css'
 
 const Card = ({ movie }) => {
   return (
-    <div className='card'>
+    <div className='movieCard'>
       <img src={movie.img.src} className='card-img-top' alt={movie.img.alt} />
       <div className='card-body'>
         <h2 className='card-title'>{`#${movie.ranking} - ${movie.title} (${movie.year})`}</h2>
