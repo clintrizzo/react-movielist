@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 
 import Home from '../src/pages/homePage'
 import moviesPage from '../src/pages/moviePage'
@@ -24,9 +24,11 @@ function App() {
                         TV Faviorites
                     </Link>
                 </nav>
-                <Route path='/' exact component={Home} />
+            <Switch>
+                <Route exact path='/' exact component={Home} />
                 <Route path='/moviePage' component={moviesPage} />
                 <Route path='/tvPage' component={tvPage} />
+            </Switch>
             </div>
         </Router>
     )
