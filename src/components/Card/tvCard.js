@@ -4,7 +4,7 @@ import './style.css'
 
 const Card = ({ tv }) => {
   return (
-    <div className='card'>
+    <div className='tvCard'>
       <img src={tv.img.src} className='card-img-top' alt={tv.img.alt} />
       <div className='card-body'>
         <h2 className='card-title'>{`#${tv.ranking} - ${tv.title} (${tv.year})`}</h2>
