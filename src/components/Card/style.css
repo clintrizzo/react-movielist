@@ -5,3 +5,11 @@ h2{
 img{
     height: 400px;
 }
+
+.tvCard{
+    margin-left: 15px;
+}
+
+.movieCard{
+    margin-right: 15px;
+}
