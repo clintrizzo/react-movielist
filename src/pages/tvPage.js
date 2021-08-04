@@ -4,7 +4,9 @@ import List from '../containers/tvList'
 function tvPage () {
     return (
         <div>
-            <h1>Hello TV Page</h1>
+            <center>
+            <h1><header>TV List</header></h1>
+            </center>
             <List />
         </div>
     )
