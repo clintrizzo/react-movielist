@@ -4,10 +4,10 @@ import List from '../containers/movieList'
 function moviesPage () {
     return (
         <div>
-         <div className='container-fluid'>
-        <h1>Movie List</h1>
-        <List />
-        </div>
+            <center>
+            <h1><header>Movie List</header></h1>
+            </center>
+            <List />
         </div>
     )
 }
