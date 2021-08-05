@@ -6,6 +6,7 @@ function tvPage () {
         <div>
             <center>
             <h1><header>TV List</header></h1>
+            <h1>Faviorites</h1>
             </center>
             <List />
         </div>
