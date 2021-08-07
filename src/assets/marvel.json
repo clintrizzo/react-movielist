@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "title": "Avengers: Infinity War",
+      "distributor": "Walt Disney Studios Motion Pictures",
+      "year": 2018,
+      "amount": "$2,048,359,754",
+      "img": {          
+        "src": "src/media/marvelPage/avengers_infinity_war.jpg",
+        "alt": "avengers_infinity_war"
+      },
+      "ranking": 1
+    }
+  ]
