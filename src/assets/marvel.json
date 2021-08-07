@@ -1,6 +1,18 @@
 [
+  {
+    "id": 1,
+    "title": "Thor Ragnarok",
+    "distributor": "Walt Disney Studios Motion Pictures",
+    "year": 2017,
+    "amount": "$854,000,000",
+    "img": {          
+      "src": "src/media/marvelPage/thorRagnarok.jpg",
+      "alt": "thor-ragnarok"
+    },
+    "ranking": 1
+  },
     {
-      "id": 1,
+      "id": 2,
       "title": "Avengers: Infinity War",
       "distributor": "Walt Disney Studios Motion Pictures",
       "year": 2018,
@@ -9,6 +21,7 @@
         "src": "src/media/marvelPage/avengers_infinity_war.jpg",
         "alt": "avengers_infinity_war"
       },
-      "ranking": 1
+      "ranking": 2
     }
   ]
+
