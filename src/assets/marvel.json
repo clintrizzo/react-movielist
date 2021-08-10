@@ -34,6 +34,18 @@
         "alt": "Loki"
       },
       "ranking": 3
+    },
+    {
+      "id": 4,
+      "title": "Avengers: EndGame",
+      "distributor": "Walt Disney Studios Motion Pictures",
+      "year": 2019,
+      "amount": "$2,798,000,000",
+      "img": {          
+        "src": "src/media/marvelPage/endGame.jpg",
+        "alt": "Loki"
+      },
+      "ranking": 4
     }
   ]
 
