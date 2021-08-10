@@ -12,19 +12,7 @@
     "ranking": 1
   },
     {
-        "id": 2,
-        "title": "Loki",
-        "distributor": "Walt Disney Studios Motion Pictures",
-        "year": 2021,
-        "amount": "$2,048,359,754",
-        "img": {          
-          "src": "src/media/tvPage/loki.jpg",
-          "alt": "Loki"
-        },
-        "ranking": 2
-      },
-    {
-     "id": 3,
+     "id": 2,
       "title": "Mandalorian",
       "distributor": "20th Century Fox",
       "year": 2019,
@@ -33,6 +21,6 @@
         "src": "src/media/tvPage/star_wars_mandalorian.jpg",
         "alt": "Mandalorian"
       },
-      "ranking": 3
+      "ranking": 2
     }
   ]
