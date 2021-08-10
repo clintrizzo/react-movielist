@@ -1,9 +1,12 @@
 h2{
-    font-size: 12px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .card-img-top{
     height: 450px;
+    border-radius: 20px;
 }
 
 .tvCard{
@@ -11,5 +14,10 @@ h2{
 }
 
 .movieCard{
-    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.marvelCard{
+    margin-left: 3px;
+    margin-right: 3px;
 }
