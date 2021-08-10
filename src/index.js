@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 
-import Home from '../src/pages/homePage'
 import moviesPage from '../src/pages/moviePage'
 import tvPage from '../src/pages/tvPage'
 import marvelPage from '../src/pages/marvelPage'
@@ -13,26 +12,21 @@ function App() {
         <Router>
             <div>
                 <nav style={{ margin: 10 }}>
-                    <Link to='/' style={{ padding: 10 }}>
-                        Home
+                <Link to='/moviesPage' style={{ padding: 10 }}>
+                        Movies
                     </Link>
-
-                    <Link to='/moviePage' style={{ padding: 10 }}>
-                        Movie Faviorites
-                    </Link>
-
                     <Link to='/tvPage' style={{ padding: 10 }}>
-                        TV Faviorites
+                        TV 
                     </Link>
                     <Link to='/marvelPage' style={{ padding: 10 }}>
-                        Marvel Faviorites
+                        Marvel
                     </Link>
                 </nav>
             <Switch>
-                <Route exact path='/' exact component={Home} />
-                <Route path='/moviePage' component={moviesPage} />
-                <Route path='/tvPage' component={tvPage} />
-                <Route path='/marvelPage' component={marvelPage} />
+                <Route exact path='/' exact component={moviesPage} />
+                <Route exact path='/moviesPage' exact component={moviesPage} />
+                <Route path='/tvPage' exact component={tvPage} />
+                <Route path='/marvelPage' exact component={marvelPage} />
             </Switch>
             </div>
         </Router>
