@@ -22,5 +22,29 @@
         "alt": "jurassic_world"
       },
       "ranking": 2
+    },
+    {
+      "id": 3,
+      "title": "The Hobbit: Battle of Five Armies",
+      "distributor": "New Lne Cinema",
+      "year": 2014,
+      "amount": "$962,200,000",
+      "img": {
+        "src": "src/media/moviePage/theHobbit.jpg",
+        "alt": "battle_of_five_armies"
+      },
+      "ranking": 3
+    },
+    {
+      "id": 4,
+      "title": "Lord of The Rings: The Return of The King",
+      "distributor": "New Line Cinema",
+      "year": 2003,
+      "amount": "$1,146,000,000",
+      "img": {
+        "src": "src/media/moviePage/returnOfTheKing.jpg",
+        "alt": "return_of_the_king"
+      },
+      "ranking": 4
     }
   ]
