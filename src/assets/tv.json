@@ -22,5 +22,29 @@
         "alt": "Mandalorian"
       },
       "ranking": 2
-    }
+    },
+    {
+      "id": 3,
+       "title": "Gordon Ramsay: Uncharted",
+       "distributor": "National Geographic",
+       "year": 2019,
+       "amount": "Free Lance",
+       "img": {
+         "src": "src/media/tvPage/gordon.jpg",
+         "alt": "Gordon_Ramsay"
+       },
+       "ranking": 3
+     },
+     {
+      "id": 4,
+       "title": "How I Met Your Mother",
+       "distributor": "20th Television",
+       "year": 2005,
+       "amount": "undisclosed",
+       "img": {
+         "src": "src/media/tvPage/mother.jpg",
+         "alt": "how_i_met_your_mother"
+       },
+       "ranking": 4
+     }
   ]
