@@ -32,9 +32,9 @@ Clinton Rizzo
 ## Images
 - images from mobile device
 <div flexbox='column'>
-<img src ='src/media/readme/marvel.jpg' width='250px' height='450px'>
-<img src = 'src/media/readme/tv.jpg' width='250px' height='450px'>
-<img src ='src/media/readme/movies.jpg alt='landingpage' width='250px' height='450px'>
+<img src ='src/media/readme/marvel.jpg'>
+<img src = 'src/media/readme/tv.jpg'>
+<img src ='src/media/readme/movies.jpg'>
 <div>
 
 ## My-info:
